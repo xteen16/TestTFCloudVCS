@@ -12,7 +12,7 @@ variable "vpc_cidr" {
 }
 
 variable "tag" {
-  default     = "TestTFCloudVCS"
+  default     = "TestPRTFCPlan"
 }
 
 resource "aws_vpc" "main" {
