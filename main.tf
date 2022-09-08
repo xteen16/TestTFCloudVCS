@@ -12,7 +12,7 @@ variable "vpc_cidr" {
 }
 
 variable "tag" {
-  default     = "Terraform"
+  default     = "TestTFCloudVCS"
 }
 
 resource "aws_vpc" "main" {
